@@ -1,4 +1,55 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
-calib,C0,adasind_019560.jpg,L3,center,SPURIOUS,Vẽ tách người ngồi sau xe máy thành box riêng,High,Team,R03,Ảnh có xe máy chở 2 người,Gộp lại hoặc xóa box thừa,1.0,
-calib,C0,adasind_019560.jpg,L5,center,SPURIOUS,Phân loại nhầm xe ba gác thành Truck,High,Team,R04,Xe ba bánh chở hàng,Đổi nhãn thành ThreeWheeler,1.0,
-calib,C0,adasind_019560.jpg,L9,edge,SPURIOUS,Vẽ thừa ego_body ở vùng không thấy rõ thân xe,Low,Team,R07,Frame không thấy gương/tay lái,Xóa polygon ego_body thừa,1.0,
+calib,C0,adasind_019560.jpg,L3,na,SPURIOUS,E1_annotator_error,P1,annotator,R03,Ảnh có xe máy chở 2 người,rework,1.0,Vẽ tách người ngồi sau xe máy thành box riêng
+calib,C0,adasind_019560.jpg,L5,na,SPURIOUS,E1_annotator_error,P1,annotator,R04,Xe ba bánh chở hàng,rework,1.0,Phân loại nhầm xe ba gác thành Truck
+calib,C0,adasind_019560.jpg,L9,na,SPURIOUS,E1_annotator_error,P2,annotator,R07,Frame không thấy gương/tay lái,rework,1.0,Vẽ thừa ego_body ở vùng không thấy rõ thân xe
+r2_qa,B4-dense,adasind_258420.jpg,L12,L_only,IGNORE_SCOPE,,P0,annotator,R07,submission/screenshots/adasind_258420_L12_ego_body.png,rework,1.0,Gán nhãn Bike cho gương và thân xe ego thay vì polygon ego_body
+r2_qa,B4-dense,adasind_258420.jpg,L10,L_only,SPURIOUS,,P1,annotator,R03,submission/screenshots/adasind_258420_L10_rider_split.png,rework,1.0,Vẽ box Pedestrian cho người ngồi trên xe ba bánh L1 ThreeWheeler
+r2_qa,B4-dense,adasind_258420.jpg,L9,L_only,SPURIOUS,,P1,annotator,R03,submission/screenshots/adasind_258420_L10_rider_split.png,rework,1.0,Box Bike L9 chồng lấn trong thân xe L3 Car không rõ xe 2 bánh
+r2_qa,B4-dense,adasind_270517.jpg,L5,L_only,IGNORE_SCOPE,,P0,annotator,R07,submission/screenshots/adasind_270517_L7_L8_misclass_bus.png,rework,1.0,Gán nhãn Bike cho thân xe ego thay vì polygon ego_body
+r2_qa,B4-dense,adasind_270517.jpg,L7,L_only,WRONG_CLASS,,P1,annotator,R04,submission/screenshots/adasind_270517_L7_L8_misclass_bus.png,rework,1.0,Phân loại nhầm xe ô tô con thành Bus
+r2_qa,B4-dense,adasind_270517.jpg,L8,L_only,WRONG_CLASS,,P1,annotator,R04,submission/screenshots/adasind_270517_L7_L8_misclass_bus.png,rework,1.0,Phân loại nhầm xe ô tô con thành Bus
+r2_qa,B4-dense,adasind_310008.jpg,L1,L_only,IGNORE_SCOPE,,P0,annotator,R07,submission/screenshots/adasind_310008_L1_ego_L3_ped.png,rework,1.0,Gán nhãn Bike cho thân xe ego thay vì polygon ego_body
+r2_qa,B4-dense,adasind_310008.jpg,L3,L_only,BOX_GEOMETRY,,P2,annotator,R02,submission/screenshots/adasind_310008_L1_ego_L3_ped.png,rework,1.0,Box Pedestrian L3 vẽ quá rộng chồng lấn sang người bên cạnh
+r1_craft,B4-dense,adasind_258420.jpg,L3+R5,na,BOX_GEOMETRY,,,,,,,,
+r1_craft,B4-dense,adasind_258420.jpg,L8,na,SPURIOUS,,,,,,,,
+r1_craft,B4-dense,adasind_258420.jpg,L9,na,SPURIOUS,,,,,,,,
+r1_craft,B4-dense,adasind_258420.jpg,L10,na,SPURIOUS,,,,,,,,
+r1_craft,B4-dense,adasind_258420.jpg,L12,na,SPURIOUS,,,,,,,,
+r1_craft,B4-dense,adasind_270517.jpg,L2,na,IGNORE_SCOPE,,,,,,,,
+r1_craft,B4-dense,adasind_270517.jpg,L5,na,SPURIOUS,,,,,,,,
+r1_craft,B4-dense,adasind_270517.jpg,L7+R6,na,WRONG_CLASS,,,,,,,,
+r1_craft,B4-dense,adasind_270517.jpg,L8+R5,na,WRONG_CLASS,,,,,,,,
+r1_craft,B4-dense,adasind_310008.jpg,L1,na,IGNORE_SCOPE,,,,,,,,
+r3_diag,B4-dense,adasind_258420.jpg,L1+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,L5+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,L2+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,L6+R3,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,L3+M6,LM_noR,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_258420.jpg,L8,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_258420.jpg,L9,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_258420.jpg,L10,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_258420.jpg,L12,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_258420.jpg,R5,R_only,MISSING,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_258420.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,L1+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,L9+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,L5,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_270517.jpg,L7,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_270517.jpg,L8,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_270517.jpg,R5+M3,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_270517.jpg,R6+M1,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,
+r3_diag,B4-dense,adasind_270517.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,M9,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_270517.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_310008.jpg,L5+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_310008.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_310008.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
