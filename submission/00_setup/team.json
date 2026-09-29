@@ -1,7 +1,7 @@
 {
   "qa_reviews": {
-    "Ngọc": "Song",
-    "Song": "Văn",
-    "Văn": "Ngọc"
+    "ngoc": "song",
+    "song": "van",
+    "van": "ngoc"
   }
 }
