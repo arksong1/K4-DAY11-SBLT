@@ -1,15 +1,15 @@
 {
   "members": [
-    "ngoc",
-    "song",
-    "van"
+    "Ngọc",
+    "Song",
+    "Văn"
   ],
   "assignments": {
-    "ngoc": "B2-mid",
-    "song": "B4-dense",
-    "van": "B1-edge"
+    "Ngọc": "B4-mid",
+    "Song": "B2-center",
+    "Văn": "B1-center"
   },
-  "self": "song",
+  "self": "Ngọc",
   "slice": "B4-dense",
   "degrade": [],
   "current_slice": "B4-dense",
