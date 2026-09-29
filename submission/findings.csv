@@ -20,36 +20,36 @@ r1_craft,B4-dense,adasind_270517.jpg,L5,na,SPURIOUS,,,,,,,,
 r1_craft,B4-dense,adasind_270517.jpg,L7+R6,na,WRONG_CLASS,,,,,,,,
 r1_craft,B4-dense,adasind_270517.jpg,L8+R5,na,WRONG_CLASS,,,,,,,,
 r1_craft,B4-dense,adasind_310008.jpg,L1,na,IGNORE_SCOPE,,,,,,,,
-r3_diag,B4-dense,adasind_258420.jpg,L1+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,L5+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,L2+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,L6+R3,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,L3+M6,LM_noR,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_258420.jpg,L8,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_258420.jpg,L9,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_258420.jpg,L10,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_258420.jpg,L12,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_258420.jpg,R5,R_only,MISSING,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_258420.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_258420.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,L1+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,L9+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,L5,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_270517.jpg,L7,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_270517.jpg,L8,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_270517.jpg,R5+M3,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_270517.jpg,R6+M1,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,
-r3_diag,B4-dense,adasind_270517.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,M9,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_270517.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_310008.jpg,L5+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_310008.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
-r3_diag,B4-dense,adasind_310008.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,
+r3_diag,B4-dense,adasind_258420.jpg,L1+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Nhãn và reference có, model bỏ sót; giả thuyết lệch miền fisheye (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,L5+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Nhãn và reference có, model bỏ sót; giả thuyết lệch miền fisheye (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,L2+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Nhãn và reference có, model bỏ sót; giả thuyết lệch miền fisheye (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,L6+R3,LR_noM,MISSING,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Nhãn và reference có, model bỏ sót; giả thuyết lệch miền fisheye (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,L3+M6,LM_noR,SPURIOUS,E1_annotator_error,P1,annotator,,submission/r3_diag/model_compare.md,rework,1.0,"LM_noR: nhãn và model đều thấy, reference không có; kiểm khả năng E0 (reference thiếu) trước khi rework"
+r3_diag,B4-dense,adasind_258420.jpg,L8,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,submission/r3_diag/model_compare.md,rework,1.0,"r1_craft và r3 đều ghi SPURIOUS; chưa có dòng QA riêng, cần mở ảnh xác nhận trước khi rework"
+r3_diag,B4-dense,adasind_258420.jpg,L9,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R03,submission/screenshots/adasind_258420_L10_rider_split.png,rework,1.0,"Bike L9 chồng trong thân xe Car L3, chưa thấy xe hai bánh riêng; cần soát ảnh gốc trước khi xóa (D06)"
+r3_diag,B4-dense,adasind_258420.jpg,L10,L_only,SPURIOUS,E2_guideline_gap,P1,guideline,R03,submission/screenshots/adasind_258420_L10_rider_split.png,escalate,1.0,"Người ở mép xe ba bánh L1; R03 chưa nêu xe ba bánh; xem 30_escalation_ticket.md, D02"
+r3_diag,B4-dense,adasind_258420.jpg,L12,L_only,SPURIOUS,E1_annotator_error,P0,annotator,R07,submission/screenshots/adasind_258420_L12_ego_body.png,rework,1.0,"Box Bike trùm gương/thân xe ego, cần polygon ego_body; khớp r2_qa L12 (D01)"
+r3_diag,B4-dense,adasind_258420.jpg,R5,R_only,MISSING,E1_annotator_error,P1,annotator,,submission/r3_diag/model_compare.md,rework,1.0,"Reference có, nhãn thiếu; thêm box (D05)"
+r3_diag,B4-dense,adasind_258420.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone edge); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone center); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_258420.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone center); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,L1+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Nhãn và reference có, model bỏ sót; giả thuyết lệch miền fisheye (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,L9+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Nhãn và reference có, model bỏ sót; giả thuyết lệch miền fisheye (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,L5,L_only,SPURIOUS,E1_annotator_error,P0,annotator,R07,submission/screenshots/adasind_270517_L7_L8_misclass_bus.png,rework,1.0,"Box Bike trùm gương/thân xe ego, cần polygon ego_body; khớp r2_qa L5 (D01)"
+r3_diag,B4-dense,adasind_270517.jpg,L7,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R04,submission/screenshots/adasind_270517_L7_L8_misclass_bus.png,rework,1.0,"Xe con bị gán Bus, cùng vật với R6 (r1_craft: L7+R6 WRONG_CLASS); đổi sang Car (D03)"
+r3_diag,B4-dense,adasind_270517.jpg,L8,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R04,submission/screenshots/adasind_270517_L7_L8_misclass_bus.png,rework,1.0,"Xe con bị gán Bus, cùng vật với R5 (r1_craft: L8+R5 WRONG_CLASS); đổi sang Car (D03)"
+r3_diag,B4-dense,adasind_270517.jpg,R5+M3,RM_noL,MISSING,E1_annotator_error,P1,annotator,R04,submission/r3_diag/model_compare.md,rework,1.0,"Cùng vật với L8 bị gán nhầm Bus; sửa class ở D03, không thêm box mới"
+r3_diag,B4-dense,adasind_270517.jpg,R6+M1,RM_noL,MISSING,E1_annotator_error,P1,annotator,R04,submission/r3_diag/model_compare.md,rework,1.0,"Cùng vật với L7 bị gán nhầm Bus; sửa class ở D03, không thêm box mới"
+r3_diag,B4-dense,adasind_270517.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone center); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone center); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,M9,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone center); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_270517.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_310008.jpg,L5+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Nhãn và reference có, model bỏ sót; giả thuyết lệch miền fisheye (D07)"
+r3_diag,B4-dense,adasind_310008.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"
+r3_diag,B4-dense,adasind_310008.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/r3_diag/model_compare.md,keep_with_reason,1.0,"Model thấy, reference không có (zone mid); giả thuyết lệch miền fisheye, cần xem overlay để xác nhận (D07)"

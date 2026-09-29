@@ -1,7 +1,7 @@
 # Guideline patch
 
-- **Rule mới đề xuất:** TODO
-- **Áp dụng cho:** TODO (class/attribute/zone/ignore_region liên quan)
-- **Vì sao luật hiện tại (`docs/02-rules-vi.md`) không đủ:** TODO
-- **`rules_version` mới:** TODO (ví dụ v1.0.0 → v1.1.0)
-- **Hiệu lực từ:** TODO (round nào bắt đầu áp dụng)
+Rule mới đề xuất: R03a — Người ngồi, đứng hoặc bám trên/sát thân một xe ba bánh (auto-rickshaw, e-rickshaw, xích lô) được tính là một phần của ThreeWheeler, không vẽ box Pedestrian riêng, tương tự người ngồi trong ô tô hoặc xe buýt ở R03. Người đứng tách hẳn khỏi thân xe (không tiếp xúc, không ngồi/bám) vẫn là Pedestrian. Nếu không phân biệt được người đang ngồi/bám hay chỉ đứng cạnh, không tự quyết: gắn ghi chú và đưa cho người soát.
+Áp dụng cho: class ThreeWheeler và Pedestrian; ví dụ trong slice B4-dense, frame adasind_258420.jpg: L1 (ThreeWheeler) và L10 (Pedestrian đè lên mép trái của L1). Không ảnh hưởng ignore_region hay zone.
+Vì sao luật hiện tại (docs/02-rules-vi.md) không đủ: R03 chỉ nêu người ngồi trong phương tiện khác “(ô tô, xe buýt)” và người lái xe hai bánh; R04 chỉ nói ánh xạ xe ba bánh sang ThreeWheeler. Chưa có câu nào cho người ngồi hoặc bám trên xe ba bánh, nên hai người gán nhãn có thể vẽ khác nhau mà cùng đúng luật. Ca L10 bị B ghi là SPURIOUS theo R03, nhưng nội dung R03 không đề cập xe ba bánh, nên đây là khoảng trống luật (E2), không chắc là lỗi của người gán nhãn.
+rules_version mới: v1.0.0 → v1.1.0
+Hiệu lực từ: vòng rework (rework/), áp dụng cho bản nhãn sửa v2 của slice này; các vòng trước giữ nguyên rules_version 1.0 để so sánh công bằng.

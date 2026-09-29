@@ -4,8 +4,8 @@
 đã nằm trong file tương ứng nên không hỏi lại ở đây.
 
 1. Một vật ở vùng seam giữa hai camera thật xuất hiện với hai box khác nhau: đó là lỗi `DUPLICATE` hay cần một quy
-   tắc riêng? Vì sao? TODO
+   tắc riêng? Vì sao? Đây chưa nên tự động tính là `DUPLICATE`. Mỗi camera nhìn vật từ một góc riêng, nên hai box có thể đều là quan sát hợp lệ trên ảnh của camera đó, và hai box khác nhau ở zone (ví dụ `edge` trên camera này, `mid` trên camera kia) là điều bình thường. Cần một quy tắc riêng cho seam: khi nào giữ cả hai để tầng sau xử lý, khi nào hợp nhất, và output đích là gì. Chỉ khi có quy tắc đó và hai box thực sự trùng trên cùng một camera thì mới gọi là `DUPLICATE`.
 2. Một vật đi qua nhiều frame trên cùng camera: khi nào giữ cùng track ID, khi nào thêm keyframe hoặc trạng thái
-   Outside? Nêu bằng chứng sẽ cần trước khi nối track qua hai camera. TODO
+   Outside? Nêu bằng chứng sẽ cần trước khi nối track qua hai camera. Giữ cùng track ID khi vẫn nhận ra đó là một vật và còn quan sát được. Thêm keyframe khi hình học đổi lớn (vật lại gần, xoay, bị fisheye kéo méo); dùng trạng thái Outside khi vật ra khỏi trường nhìn hoặc bị che hẳn theo guideline của task. Trước khi nối track qua hai camera cần: timestamp đồng bộ của các frame, calibration (nội tại và ngoại tại) để quy về cùng hệ tọa độ, và policy về output đích (một ID toàn hệ thống hay ID riêng từng camera). Thiếu một trong ba thì không tự ghép hay xóa box.
 3. Nhìn lại cả buổi: một chỗ bạn tin nhãn mình đúng nhưng reference hoặc người soát nghĩ khác (dẫn frame/`object_ref`),
-   bạn đã xử lý thế nào, và nếu làm lại slice này bạn sẽ đổi gì trong cách làm? TODO
+   bạn đã xử lý thế nào, và nếu làm lại slice này bạn sẽ đổi gì trong cách làm? Ca `adasind_258420.jpg` `L10`: B ghi là box `Pedestrian` thừa theo R03 (người ngồi trên xe ba bánh L1) và `findings.csv` ban đầu xếp vào lỗi người gán nhãn (E1). Khi đối chiếu, tôi thấy R03 chỉ nêu ô tô và xe buýt, không nêu xe ba bánh, nên tôi không kết luận đây là lỗi của A ngay mà chuyển sang khoảng trống luật (E2): ghi escalation, đề xuất R03a trong `20_guideline_patch.md` và ghi vào `40_decision_log.csv`. Nếu làm lại, tôi sẽ đọc kỹ luật và ghi ca nghi ngờ vào findings ngay khi soát, kèm ảnh chụp, thay vì để đến lúc chẩn đoán mới phân biệt lỗi nhãn với lỗi luật.

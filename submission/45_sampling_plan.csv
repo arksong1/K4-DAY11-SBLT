@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,20,Low,Baseline assessment
-front,hard,30,High,Distortion at edges or heavy traffic
-rear,normal,20,Low,Baseline assessment
-rear,hard,30,High,Blind spots and reflection
-left,normal,20,Low,Baseline assessment
-left,hard,30,High,Close proximity objects or narrow lanes
-right,normal,20,Low,Baseline assessment
-right,hard,30,High,Close proximity objects or narrow lanes
+front,normal,20,trung bình,"Nền so sánh: đường thoáng, ánh sáng tốt, vật ở xa/giữa khung. Đủ để đo mức sai cơ bản của front, tránh dồn hết ngân sách vào ca khó."
+front,hard,35,cao,"Xe chạy nhanh nên vật xa nhỏ, ngược sáng/đêm/mưa, người đi bộ băng ngang gần mép ảnh. Lỗi ở front ảnh hưởng trực tiếp đến phanh và tránh va chạm, nên cần nhiều mẫu nhất. Lấy theo cảnh khác nhau, không lấy nhiều frame liền nhau của cùng một cảnh."
+rear,normal,20,trung bình,"Nền so sánh cho camera sau: bãi đỗ thoáng, ít vật cản, để có mốc đối chiếu với ca khó."
+rear,hard,35,cao,"Lùi xe trong bãi đông: vật rất gần, bị cắt bởi mép ảnh, bị che bởi xe khác, có nhiều vạch sơn và cột. Vùng gần thân xe bị biến dạng mạnh nên dễ sai box. Ưu tiên cảnh lùi vào ô đỗ và người đi bộ sát xe."
+left,normal,15,trung bình,"Nền so sánh: lề đường thoáng, ít vật thể. Ít hơn front/rear vì thường ít vật chuyển động nhanh ở phía này."
+left,hard,30,cao,"Vùng seam với front và rear (xe hoặc người ở góc xe xuất hiện trên hai camera), sát curb, xe máy chạy song song, vật sát thân xe nên bị cắt bởi vòng kính. Đây là nơi lỗi DUPLICATE và ghép box hay xảy ra."
+right,normal,15,trung bình,"Nền so sánh: giống left. Giữ số riêng vì right có thể lệch điều kiện (ánh sáng, làn xe) so với left, không gộp chung."
+right,hard,30,cao,"Seam với front và rear, xe/người sát thân xe khi đỗ hoặc dừng đèn đỏ, vật bị cắt bởi vòng kính. Cần review riêng, không suy từ left vì hình học lắp camera và điều kiện thực tế có thể khác."
