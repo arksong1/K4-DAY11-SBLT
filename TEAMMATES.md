@@ -13,7 +13,7 @@
 - Tên định danh vai A dùng cho --self: [Song]
 - Kênh trao đổi nội bộ: [Zalo]
 - Đại diện nộp (vai C): [Ngô Duy Ngọc]
-- Commit chốt bài: [URL commit]
+- Commit chốt bài: [https://github.com/arksong1/K4-DAY11-SBLT/commits/main/]
 
 ## 2. Ba vai chính
 
