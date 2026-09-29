@@ -43,6 +43,7 @@ Hai bảng trên do `python3 lab11.py card` tính từ `findings.csv`; chạy l�
   - L10 người ở mép xe ba bánh: escalate cho `guideline`, đề xuất R03a trong `20_guideline_patch.md`; chưa tính là lỗi của A cho đến khi có quyết định (`action=escalate`, D02, `30_escalation_ticket.md`).
   - Các ca `M_only` và `LR_noM`: không sửa nhãn theo model; owner `ai_team`, `action=keep_with_reason` (D07).
   - Việc cần kiểm thêm: `adasind_258420` `L3+M6` (`LM_noR`) có thể là lỗi của reference (E0); ca L9 và `adasind_270517` L2 chờ soát ảnh gốc (D06).
+  - Kết quả rework v2 (`1D9A-1D41`, `rework/delta.md`): zone `center` matched 5→6, missing 1→0, spurious 1→0; `mid` matched 5→6, missing 2→1, spurious 6→4; `edge` spurious 1→0. Đã sửa: 3 lỗi `ego_body`, L7/L8 Bus→Car, `adasind_310008` L3. Chưa sửa: `adasind_258420` L8, L9, R5; L10 giữ nguyên chờ quyết định của guideline. Vì vậy rework mới đạt một phần, chưa coi là xong.
 - Bằng chứng (ảnh trong `screenshots/`, dòng findings, rule):
   - Ảnh: `adasind_258420_L12_ego_body.png`, `adasind_310008_L1_ego_L3_ped.png`, `adasind_258420_L10_rider_split.png`, `adasind_270517_L7_L8_misclass_bus.png`.
   - Dòng `findings.csv`: `r2_qa` cho L12, L5, L1 (R07) và L7, L8 (R04); `r3_diag` L10 (`E2_guideline_gap`, `escalate`) và các dòng `M_only`/`LR_noM` (`E4_model_domain`).
