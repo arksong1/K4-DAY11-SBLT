@@ -1,24 +1,19 @@
 {
   "members": [
-    "ngoc",
-    "song",
-    "van"
+    "Ngọc",
+    "Song",
+    "Văn"
   ],
   "assignments": {
-    "ngoc": "B2-mid",
-    "song": "B4-dense",
-    "van": "B1-edge"
+    "Ngọc": "B4-mid",
+    "Song": "B2-center",
+    "Văn": "B1-center"
   },
-  "self": "song",
-  "slice": "B4-dense",
+  "self": "Ngọc",
+  "slice": "B4-mid",
   "degrade": [],
-  "current_slice": "B4-dense",
+  "current_slice": "C0",
   "support_prefill": false,
   "support_slice": "",
-  "prefill_box_ids": [
-    "adasind_258420.jpg:1",
-    "adasind_258420.jpg:2",
-    "adasind_258420.jpg:3",
-    "adasind_258420.jpg:4"
-  ]
+  "prefill_box_ids": []
 }
