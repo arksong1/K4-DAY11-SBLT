@@ -8,10 +8,10 @@ không làm thay phần lý do.
 
 | camera_id | Hard case cần chọn | Vì sao dễ sai | Annotation space / calibration cần giữ | Cách review trước khi gọi là gold |
 |---|---|---|---|---|
-| front | TODO | TODO | TODO | TODO |
-| rear | TODO | TODO | TODO | TODO |
-| left | TODO | TODO | TODO | TODO |
-| right | TODO | TODO | TODO | TODO |
+| front | Vật thể sát lề hoặc ở viền ảnh bị méo góc rộng | TODO | TODO | TODO |
+| rear | Xe phía sau ở sát điểm mù, xe bị lóa sáng | TODO | TODO | TODO |
+| left | Xe máy/người đi bộ áp sát hông, vạch kẻ bị cong méo | TODO | TODO | TODO |
+| right | Chướng ngại vật sát hông mép dưới, vạch kẻ vỉa hè | TODO | TODO | TODO |
 
 - Khi nào cần refresh gold set (đổi camera, calibration hoặc rule): TODO
 - Một ca seam/cross-camera cần policy và evidence trước khi ghép hai box: TODO

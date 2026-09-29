@@ -1,1 +1,4 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L3,center,SPURIOUS,Vẽ tách người ngồi sau xe máy thành box riêng,High,Team,R03,Ảnh có xe máy chở 2 người,Gộp lại hoặc xóa box thừa,1.0,
+calib,C0,adasind_019560.jpg,L5,center,SPURIOUS,Phân loại nhầm xe ba gác thành Truck,High,Team,R04,Xe ba bánh chở hàng,Đổi nhãn thành ThreeWheeler,1.0,
+calib,C0,adasind_019560.jpg,L9,edge,SPURIOUS,Vẽ thừa ego_body ở vùng không thấy rõ thân xe,Low,Team,R07,Frame không thấy gương/tay lái,Xóa polygon ego_body thừa,1.0,
